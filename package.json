@@ -12,7 +12,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:custom-output-channels.addChannel"
+		"onCommand:custom-output-channels.addChannel",
+		"workspaceContains:**/*[Oo][Cc][Tt][Oo][Pp][Rr][Ii][Nn][Tt]*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
