@@ -1,8 +1,10 @@
 {
   "name": "custom-output-channels",
 	"displayName": "Custom output channels",
-	"description": "Output any shell command, (such as `tail -f /var/log/MyLog.log`) as an output channel.",
+	"description": "Output any shell command, (such as `tail -f /var/log/MyLog.log`) as an output channel. Uses the command's STDOUT and STDERR as a source.",
 	"version": "0.0.1",
+	"publisher": "apbarratt",
+	"repository": "https://github.com/apbarratt/custom-output-channel",
 	"engines": {
 		"vscode": "^1.56.0"
 	},
